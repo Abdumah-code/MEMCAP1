@@ -16,6 +16,10 @@ header {
   font-family: "kyiv", sans-serif;
 }
 
+.spacing {
+  fill: #D9D9D9;
+}
+
 .Logotext {
   width: 45%;
   position: relative;
