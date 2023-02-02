@@ -14,7 +14,7 @@ body hr {
 }
 
 header {
-  font-family: "kyiv", sans-serif;
+  font-family: "kyivType sans", sans-serif;
 }
 
 .spacing {
@@ -42,7 +42,15 @@ header {
   top: 75px;
 }
 
+.firsttext {
+  font-size: 2rem;
+}
+
 @font-face {
-  font-family: "kyiv";
+  font-family: "kyivType sans";
   src: url(fonts/KyivTypeSans-Bold.otf);
+}
+@font-face {
+  font-family: "kyivType serif";
+  src: url(fonts/KyivTypeSerif-Regular.otf);
 }/*# sourceMappingURL=style.css.map */
