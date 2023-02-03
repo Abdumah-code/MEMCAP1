@@ -81,6 +81,7 @@ header {
 }
 
 .Spacigngroup {
+  fill: #D9D9D9;
   position: absolute;
   left: 28.5%;
   top: 34.5%;
@@ -101,6 +102,7 @@ header {
 }
 
 .Spacigngroup1 {
+  fill: #D9D9D9;
   position: absolute;
   left: 28.5%;
   top: 58.9%;
@@ -122,6 +124,7 @@ header {
 }
 
 .Spacigngroup2 {
+  fill: #D9D9D9;
   position: absolute;
   left: 13%;
   top: 85%;
@@ -155,6 +158,16 @@ header {
   right: 0;
   background-color: yellow;
   z-index: 10;
+}
+
+.grayfilter {
+  background-color: black;
+  opacity: 90%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .hidden {
