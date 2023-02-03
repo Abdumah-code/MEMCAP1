@@ -4,6 +4,7 @@ const menuopn = document.getElementById('menuopn');
 const body = document.querySelector('body');
 const menu = document.querySelector('.menu');
 const grayfilter = document.querySelector('.grayfilter');
+const list = document.querySelector('.list');
 
 menuopn.addEventListener("click", openmenu);
 
@@ -17,10 +18,13 @@ function openmenu() {
     menuopn.classList.remove('rotateO');
     menuopn.classList.add('rotateC');
     menu.classList.remove('open');
+    list.classList.add('hidden');
   } else {
     menuopn.classList.remove('rotateC');
     menuopn.classList.add('rotateO');
     menu.classList.add('open');
+    list.classList.remove('hidden');
+
   }
 }
 
