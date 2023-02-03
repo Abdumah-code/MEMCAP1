@@ -158,9 +158,13 @@ header {
   height: 100%;
   width: 76%;
   position: absolute;
-  right: 0;
+  right: -76%;
   background-color: #FFFFFF;
   z-index: 10;
+  transition: right 0.3s ease-out;
+}
+.menu.open {
+  right: 0;
 }
 
 .grayfilter {
