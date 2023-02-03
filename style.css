@@ -44,6 +44,9 @@ header {
   margin-top: -4rem;
   margin-bottom: 0%;
   top: 75px;
+  background-color: transparent;
+  border: none;
+  font-family: "kyivType sans";
 }
 
 .firsttext {
@@ -120,6 +123,13 @@ header {
   position: absolute;
   left: 13%;
   top: 85%;
+}
+
+.rose {
+  width: 30%;
+  position: absolute;
+  top: 75%;
+  left: 75%;
 }
 
 @font-face {
