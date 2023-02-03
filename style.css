@@ -173,6 +173,10 @@ header {
   display: none;
 }
 
+.scroll {
+  overflow-y: hidden;
+}
+
 @font-face {
   font-family: "kyivType sans";
   src: url(fonts/KyivTypeSans-Bold.otf);
