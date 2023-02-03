@@ -12,4 +12,12 @@ function openmenu() {
   menuopn.style.zIndex = '11';
   grayfilter.classList.toggle('hidden');
   body.classList.toggle('scroll');
+
+  if (menuopn.classList.contains('rotateO')) {
+    menuopn.classList.remove('rotateO');
+    menuopn.classList.add('rotateC');
+  } else {
+    menuopn.classList.remove('rotateC');
+    menuopn.classList.add('rotateO');
+  }
 }

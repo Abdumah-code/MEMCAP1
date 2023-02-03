@@ -187,6 +187,16 @@ header{
   overflow-y: hidden;
 }
 
+.rotateO{
+  transform: rotate(90deg);
+  transition: transform 0.3s ease-out;
+}
+
+.rotateC{
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-out;
+}
+
 @font-face {
   font-family: 'kyivType sans';
   src: url(fonts/KyivTypeSans-Bold.otf);
