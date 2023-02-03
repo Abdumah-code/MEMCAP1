@@ -10,7 +10,6 @@ menuopn.addEventListener("click", openmenu);
 function openmenu() {
   menu.classList.toggle('open');  
   menuopn.style.zIndex = '11';
-  // grayfilter.classList.toggle('hidden');
   grayfilter.classList.toggle('show');
   body.classList.toggle('scroll');
 
@@ -24,3 +23,4 @@ function openmenu() {
     menu.classList.add('open');
   }
 }
+
