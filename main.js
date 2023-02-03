@@ -10,7 +10,8 @@ menuopn.addEventListener("click", openmenu);
 function openmenu() {
   menu.classList.toggle('open');  
   menuopn.style.zIndex = '11';
-  grayfilter.classList.toggle('hidden');
+  // grayfilter.classList.toggle('hidden');
+  grayfilter.classList.toggle('show');
   body.classList.toggle('scroll');
 
   if (menuopn.classList.contains('rotateO')) {
