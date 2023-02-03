@@ -126,10 +126,24 @@ header {
 }
 
 .rose {
-  width: 30%;
+  width: 25%;
   position: absolute;
   top: 75%;
-  left: 75%;
+  left: 80%;
+}
+
+.Forthtext {
+  font-size: 1rem;
+  font-family: "kyivType regular sans", sans-serif;
+  width: 75%;
+  margin: 0%;
+  position: absolute;
+  top: 94%;
+  left: 27%;
+}
+.Forthtext p {
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 
 @font-face {
