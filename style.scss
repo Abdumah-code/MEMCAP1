@@ -91,10 +91,31 @@ header{
 
 .Spacigngroup{
   position: absolute;
-  margin-top: 10%;
-  margin-left: 8%;
-  left: 20%;
-  top: 30%;
+  left: 36%;
+  top: 95%;
+}
+
+.Secondtext{
+  font-size: 1rem;
+  font-family: 'kyivType regular sans', sans-serif;
+  width: 100%;
+  margin: 0%;
+  margin-top: 25%;
+  position: absolute;
+  top: 100%;
+  left: 36%;
+
+  p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+}
+
+.Spacigngroup1{
+  position: absolute;
+  left: 36%;
+  margin-top: 75%;
+  top: 95%;
 }
 
 @font-face {
@@ -105,4 +126,9 @@ header{
 @font-face {
   font-family: 'kyivType serif';
   src: url(fonts/KyivTypeSerif-Regular.otf);
+}
+
+@font-face {
+  font-family: 'kyivType regular sans';
+  src: url(fonts/KyivTypeSans-Regular.otf);
 }
