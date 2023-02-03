@@ -2,12 +2,14 @@ import './style.css'
 
 const menuopn = document.getElementById('menuopn');
 const body = document.querySelector('body');
+const menu = document.querySelector('.menu');
+const grayfilter = document.querySelector('.grayfilter');
 
 menuopn.addEventListener("click", openmenu);
 
 function openmenu() {
-  document.querySelector('.menu').classList.toggle('hidden');
+  menu.classList.toggle('hidden');  
   menuopn.style.zIndex = '11';
-  document.querySelector('.grayfilter').classList.toggle('hidden');
+  grayfilter.classList.toggle('hidden');
   body.classList.toggle('scroll');
 }
