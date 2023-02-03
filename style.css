@@ -77,11 +77,13 @@ header {
 .spacing1 {
   fill: #D9D9D9;
   display: flex;
+  z-index: -10;
 }
 
 .Spacigngroup {
   fill: #D9D9D9;
   position: absolute;
+  z-index: -10;
   left: 28.5%;
   top: 34.5%;
 }
@@ -103,6 +105,7 @@ header {
 .Spacigngroup1 {
   fill: #D9D9D9;
   position: absolute;
+  z-index: -10;
   left: 28.5%;
   top: 58.9%;
 }
@@ -125,6 +128,7 @@ header {
 .Spacigngroup2 {
   fill: #D9D9D9;
   position: absolute;
+  z-index: -10;
   left: 13%;
   top: 85%;
 }
