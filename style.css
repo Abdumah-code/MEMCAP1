@@ -116,6 +116,12 @@ header {
   margin-left: 3%;
 }
 
+.Spacigngroup2 {
+  position: absolute;
+  left: 13%;
+  top: 85%;
+}
+
 @font-face {
   font-family: "kyivType sans";
   src: url(fonts/KyivTypeSans-Bold.otf);
