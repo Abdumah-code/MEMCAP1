@@ -6,6 +6,7 @@ menuopn.addEventListener("click", openmenu);
 
 function openmenu() {
   document.querySelector('.menu').classList.toggle('hidden');
-  // document.body.style.
   menuopn.style.zIndex = '11';
+  document.querySelector('.grayfilter').classList.toggle('hidden');
+  document.body.style.overflow = 'hidden';
 }
