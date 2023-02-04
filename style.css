@@ -30,6 +30,9 @@
     width: 1em;
     height: 1em;
   }
+  .birdspacing {
+    display: none;
+  }
   .Logotext {
     width: 50%;
     height: 30px;
@@ -186,6 +189,12 @@
     position: absolute;
     top: 71%;
     left: 73%;
+  }
+  .color {
+    display: none;
+  }
+  .brown {
+    display: none;
   }
   .Forthtext {
     font-size: 1rem;
