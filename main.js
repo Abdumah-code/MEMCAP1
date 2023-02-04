@@ -7,6 +7,7 @@ const grayfilter = document.querySelector('.grayfilter');
 const list = document.querySelector('.list');
 
 menuopn.addEventListener("click", openmenu);
+list.classList.add('hidden');
 
 function openmenu() {
   menu.classList.toggle('open');  
