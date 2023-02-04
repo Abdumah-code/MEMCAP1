@@ -26,6 +26,10 @@
     fill: #D9D9D9;
     display: flex;
   }
+  .tabv {
+    position: relative;
+    left: 16%;
+  }
   .Logotext {
     width: 50%;
     height: 30px;
@@ -35,16 +39,7 @@
     top: -11px;
   }
   .Menubtn {
-    position: absolute;
-    font-size: 4rem;
-    margin: 0%;
-    right: 2%;
-    margin-top: -4rem;
-    margin-bottom: 0%;
-    top: 75px;
-    background-color: transparent;
-    border: none;
-    font-family: "kyivType sans";
+    display: none;
   }
   .menu {
     display: flex;
@@ -89,11 +84,11 @@
   .firsttext {
     font-size: 2rem;
     font-family: "kyivType serif", sans-serif;
-    width: 70%;
+    width: 25%;
     margin: 0%;
     position: absolute;
-    top: 17%;
-    left: 3%;
+    top: 14%;
+    left: 16%;
   }
   .firsttext p {
     margin-top: 0%;
@@ -101,10 +96,10 @@
   }
   .marker {
     background-color: #FFF500;
-    width: 45%;
-    height: 5%;
-    left: 20%;
-    top: 31%;
+    width: 10%;
+    height: 4%;
+    left: 25%;
+    top: 33%;
     position: absolute;
     z-index: -10;
   }
