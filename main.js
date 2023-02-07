@@ -11,7 +11,8 @@ const reject = document.getElementById('reject');
 
 
 menuopn.addEventListener("click", openmenu);
-accept.addEventListener("click", Acookie);
+accept.addEventListener("click", cookie);
+reject.addEventListener("click", cookie);
 
 list.classList.add('hidden');
 
@@ -33,4 +34,11 @@ function openmenu() {
     list.classList.remove('hidden');
 
   }
+}
+
+function cookie() {
+  cookis.classList.toggle('hidden');
+  grayfilter.classList.add('hidden');
+  accept.classList.add('hidden');
+  reject.classList.add('hidden');
 }
