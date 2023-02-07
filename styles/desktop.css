@@ -275,7 +275,7 @@
     transition: 0.3s ease-in-out;
   }
   .hidden {
-    display: none;
+    display: none !important;
   }
   .scroll {
     overflow-y: hidden;
