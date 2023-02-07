@@ -37,7 +37,7 @@ function openmenu() {
 }
 
 function cookie() {
-  cookis.classList.toggle('hidden');
+  cookis.style.display = "none";
   grayfilter.classList.add('hidden');
   accept.classList.add('hidden');
   reject.classList.add('hidden');
