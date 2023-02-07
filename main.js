@@ -6,12 +6,13 @@ const menu = document.querySelector('.menu');
 const grayfilter = document.querySelector('.grayfilter');
 const list = document.querySelector('.list');
 const cookis = document.getElementById('cookis');
-const header = document.getElementById('header');
-const footer = document.getElementById('footer');
-
+const accept = document.getElementById('accept');
+const reject = document.getElementById('reject');
 
 
 menuopn.addEventListener("click", openmenu);
+accept.addEventListener("click", Acookie);
+
 list.classList.add('hidden');
 
 function openmenu() {
