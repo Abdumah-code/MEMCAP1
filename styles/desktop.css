@@ -283,6 +283,56 @@
   .show {
     opacity: 0.8;
   }
+  .reject {
+    width: 8%;
+    height: 5%;
+    position: absolute;
+    font-size: 1rem;
+    font-family: "kyivType sans", sans-serif;
+    left: 32%;
+    top: 30%;
+    border: 2px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    background-color: #FF4B93;
+    cursor: pointer;
+    z-index: 101;
+  }
+  .accept {
+    width: 8%;
+    height: 5%;
+    position: absolute;
+    font-size: 1rem;
+    font-family: "kyivType sans", sans-serif;
+    left: 60%;
+    top: 65%;
+    border: 2px;
+    border-radius: 20px;
+    color: #FFF500;
+    background-color: #B30044;
+    cursor: pointer;
+    z-index: 101;
+  }
+  .cookis {
+    display: flex;
+    position: absolute;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    height: 45%;
+    border: none;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    margin-top: 15%;
+    background-color: #FFFFFF;
+  }
+  .cookis p {
+    width: 65%;
+    font-size: 1rem;
+    font-family: "kyivType sans", sans-serif;
+  }
   @font-face {
     font-family: "kyivType sans";
     src: url(fonts/KyivTypeSans-Bold.otf);

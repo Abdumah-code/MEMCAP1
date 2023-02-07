@@ -5,6 +5,11 @@ const body = document.querySelector('body');
 const menu = document.querySelector('.menu');
 const grayfilter = document.querySelector('.grayfilter');
 const list = document.querySelector('.list');
+const cookis = document.getElementById('cookis');
+const header = document.getElementById('header');
+const footer = document.getElementById('footer');
+
+
 
 menuopn.addEventListener("click", openmenu);
 list.classList.add('hidden');
@@ -28,4 +33,3 @@ function openmenu() {
 
   }
 }
-
