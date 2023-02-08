@@ -32,7 +32,6 @@ function openmenu() {
     menuopn.classList.add('rotateO');
     menu.classList.add('open');
     list.classList.remove('hidden');
-
   }
 }
 
