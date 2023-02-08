@@ -15,7 +15,7 @@
     margin: 0%;
   }
   header {
-    font-family: "kyivType sans", sans-serif;
+    font-family: "kyivType-sans", sans-serif;
   }
   .container {
     width: 100%;
@@ -242,7 +242,7 @@
     display: none;
   }
   @font-face {
-    font-family: "kyivType sans";
+    font-family: "kyivType-sans";
     src: url(/fonts/KyivTypeSans-Bold.otf);
   }
   @font-face {
