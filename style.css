@@ -106,14 +106,8 @@
     margin-top: 0%;
     margin-bottom: 0%;
   }
-  .marker {
+  .firsttext p span {
     background-color: #FFF500;
-    width: 45%;
-    height: 5%;
-    left: 20%;
-    top: 31%;
-    position: absolute;
-    z-index: -10;
   }
   .spacing1 {
     fill: #D9D9D9;

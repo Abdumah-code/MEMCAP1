@@ -81,17 +81,15 @@
     p{
       margin-top: 0%;
       margin-bottom: 0%;
+
+      span{
+        background-color: #FFF500;
+      }
     }
   }
   
-  .marker{
-    background-color: #FFF500;
-    width: 10.5%;
-    height: 4%;
-    left: 23.5%;
-    top: 33%;
-    position: absolute;
-    z-index: -10;
+  .ones{
+    background-color: #FFFFFF !important;
   }
   
   .tabv1{
