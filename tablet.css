@@ -247,10 +247,10 @@
   }
   @font-face {
     font-family: "kyivType serif";
-    src: url(fonts/KyivTypeSans-Regular.otf);
+    src: url(fonts/KyivTypeSerif-Regular.otf);
   }
   @font-face {
     font-family: "kyivType regular sans";
-    src: url(fonts/KyivTypeSerif-Regular.otf);
+    src: url(fonts/ksreg.otf);
   }
 }/*# sourceMappingURL=tablet.css.map */
