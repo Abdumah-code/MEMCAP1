@@ -92,14 +92,14 @@
     left: 0;
     top: 0;
     width: 1rem;
-    height: 1rem;
+    height: 8rem;
   }
   .rect1 {
     position: absolute;
     left: 0;
     top: 0;
     width: 1rem;
-    height: 8rem;
+    height: 5rem;
   }
   .Spacigngroup {
     fill: #D9D9D9;
@@ -244,6 +244,7 @@
   }
   .refoot {
     position: relative;
+    display: flex;
   }
   .signup {
     width: 6%;
