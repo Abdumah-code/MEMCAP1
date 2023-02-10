@@ -96,7 +96,7 @@
   .firsttext {
     font-size: 2rem;
     font-family: "kyivType serif", sans-serif;
-    width: 70%;
+    max-width: 70%;
     margin: 0%;
     position: absolute;
     top: 17%;
@@ -180,7 +180,7 @@
   }
   .rose {
     width: 25%;
-    position: absolute;
+    position: fixed;
     top: 71%;
     left: 73%;
   }

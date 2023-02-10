@@ -41,7 +41,7 @@
     width: 1em; 
     height: 1em;
     position: absolute;
-    left: 31em;
+    left: 65%;
   }
   
   .Logotext{
@@ -70,12 +70,12 @@
   }
   
   .firsttext {
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'kyivType serif', sans-serif;
-    width: 25%;
+    width: 35%;
     margin: 0%;
     position: absolute;
-    top: 14%;
+    top: 12%;
     left: 15%;
   
     p{
@@ -94,7 +94,7 @@
   
   .tabv1{
     position: absolute;
-    left: 16%;
+    left: 15%;
   }
 
   .spacing1 {
@@ -126,7 +126,7 @@
     position: absolute;
     z-index: -10;
     left: 50%;
-    top: 40%;
+    top: 45%;
   }
 
   .spacing3{
@@ -148,7 +148,7 @@
     width: 35%;
     margin: 0%;
     position: absolute;
-    top:52%;
+    top:55%;
     left: 50%;
   
     p{
@@ -162,7 +162,7 @@
     position: absolute;
     z-index: -10;
     left: 50%;
-    top: 65%;
+    top: 66%;
   }
   
   .Thirdtext{
@@ -171,7 +171,7 @@
     width: 35%;
     margin: 0%;
     position: absolute;
-    top: 68%;
+    top: 71%;
     left: 15%;
   
     p{
@@ -186,7 +186,7 @@
     position: absolute;
     z-index: -10;
     left: 42%;
-    top: 82%;
+    top: 83%;
   }
   
   .rose{
@@ -196,8 +196,8 @@
   .color{
     width: 35%;
     position: absolute;
-    top: 10%;
-    left: 27em;
+    top: 6%;
+    left: 55%;
   }
   
   .brown{
@@ -207,7 +207,7 @@
   .Forthtext{
     font-size: 1rem;
     font-family: 'kyivType regular sans', sans-serif;
-    width: 39%;
+    width: 29%;
     margin: 0%;
     position: absolute;
     top: 88%;
@@ -228,13 +228,13 @@
   }
   
   .rotateO{
-    transform: rotate(90deg);
-    transition: transform 0.3s ease-out;
+    // transform: rotate(90deg);
+    // transition: transform 0.3s ease-out;
   }
   
   .rotateC{
-    transform: rotate(0deg);
-    transition: transform 0.3s ease-out;
+    // transform: rotate(0deg);
+    // transition: transform 0.3s ease-out;
   }
   
   .show{
