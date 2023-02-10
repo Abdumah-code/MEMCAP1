@@ -1,7 +1,7 @@
 @import url("/tablet.css");
 @import url("/desktop.css");
 
-@media screen and (min-width: 280px) and (max-width: 766px) {
+@media (min-width: 280px) and (max-width: 766px) {
 body{
   background-color: #FFFFFF;
   color: #000000;
