@@ -98,8 +98,7 @@
     fill:#D9D9D9;
     display: flex;
     z-index: -10;
-    width: 1em; 
-    height: 4em;
+    height: 8em;
   }
   
   .rect{
@@ -108,10 +107,7 @@
   
   .rect1{
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 1rem;
-    height: 4rem;
+    height: 8rem;
   }
   
   .Spacigngroup{
@@ -216,6 +212,9 @@
     display: none;
   }
   
+  .phoneview{
+    display: none;
+  }
   .scroll{
     overflow-y: hidden;
   }
